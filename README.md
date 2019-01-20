@@ -6,15 +6,15 @@ A quick experiment in minimalist [Swift](https://developer.apple.com/swift/) cod
 
 ## The Goal
 
-To create an interactive 3D [wireframe](https://en.wikipedia.org/wiki/Wire-frame_model) world using minimal Swift code and no **3D** or **graphics libraries** ([AppKit](https://developer.apple.com/documentation/appkit) is used for keyboard event handling and basic drawing).
+To create an interactive **3D [wireframe](https://en.wikipedia.org/wiki/Wire-frame_model)** world using minimal Swift code and no **3D** or **graphics libraries** ([AppKit](https://developer.apple.com/documentation/appkit) is used for keyboard event handling and basic drawing).
 
 ## Result
 
-The **3D world** is composed, rendered, and animated in about **~200 lines** of **Swift** ([code](/Simple3D.swift)), which includes geometry, event handling, and animation.
+The **3D world** is composed, rendered, and animated in about **200 lines** of **Swift** ([code](/Simple3D.swift)), which includes geometry, event handling, and animation.
 
 ## Discussion
 
-This code could be condensed further, and could certainly be improved in many ways, but mostly this was an experiment to see if I could reduce the math for a basic 3D wireframe renderer down to the barest essentials.
+This code could be condensed further, and could certainly be improved in many ways; mostly this was an experiment to see if I could reduce the math for a basic 3D renderer down to the barest essentials.
 
 The code is not much more than a handful of `CGFloat`s and calls to `sin()`/`cos()` for the rotations. This is by no means a robust or performant 3D engine, but I was happy with how little code was required to get the world up-and-running.
 
