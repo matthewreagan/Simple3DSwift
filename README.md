@@ -10,7 +10,7 @@ To create an interactive 3D [wireframe](https://en.wikipedia.org/wiki/Wire-frame
 
 ## Result
 
-The **3D world** is composed, rendered, and animated in about **~200 lines** of **Swift**, which includes geometry, event handling, and animation.
+The **3D world** is composed, rendered, and animated in about **~200 lines** of **Swift** ([code](/Simple3D.swift)), which includes geometry, event handling, and animation.
 
 ## Discussion
 
